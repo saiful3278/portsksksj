@@ -119,7 +119,7 @@ export default async function Project({
         </Row>
       </Row>
       {post.metadata.images.length > 0 && (
-        <Row shadow="m" radius="m">
+        <Row horizontal="center" maxWidth="s" shadow="m" radius="m">
           <Media
             priority
             aspectRatio="16 / 9"
