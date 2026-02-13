@@ -18,10 +18,10 @@ const baseURL: string = "https://saiful.bro.bd";
 
 const routes: RoutesConfig = {
   "/": true,
-  "/about": true,
+  "/about": false,
   "/work": true,
-  "/blog": true,
-  "/gallery": true,
+  "/blog": false,
+  "/gallery": false,
 };
 
 const display: DisplayConfig = {

@@ -13,7 +13,7 @@ const person: Person = {
 };
 
 const newsletter: Newsletter = {
-  display: true,
+  display: false,
   title: <>Subscribe to {person.firstName}'s Newsletter</>,
   description: <>My weekly newsletter about creativity and engineering</>,
 };
@@ -23,19 +23,11 @@ const social: Social = [
   // Import new icons in /once-ui/icons.ts
   // Set essentials: true for links you want to show on the about page
   {
-    name: "GitHub",
-    icon: "github",
-    link: "https://github.com/",
-    essential: true,
-  },
-  
-  {
     name: "Facebook",
     icon: "facebook",
     link: "https://www.facebook.com/saiful32785/",
-    essential: false,
+    essential: true,
   },
-  
   {
     name: "Email",
     icon: "email",
